@@ -10,13 +10,14 @@ import Navbar from "./components/navbar/Navbar";
 import Footer from "./components/footer/Footer";
 import Menu from "./components/menu/Menu";
 import Login from "./pages/login/Login";
+import "./styles/styles.scss"
 
 
 function App() {
 
   const Layout = ()=> {
     return (
-      <div>
+      <div className="main">
         <Navbar/>
         <div className="container">
           <div className="menu-container">
